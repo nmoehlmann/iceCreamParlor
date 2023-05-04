@@ -1,0 +1,82 @@
+:root {
+    --dark: #227c9d;
+    --medium: #ffcb77;
+    --light: #fe6d73;
+    --lightAccent: #c74242;
+}
+
+/* SECTION COLORS */
+
+.bg-colorDark {
+    background-color: var(--dark)
+}
+.bg-colorMedium {
+    background-color: var(--medium)
+}
+.bg-colorLight {
+    background-color: var(--light)
+}
+
+.colorDark {
+    color: var(--dark)
+}
+.colorMedium {
+    color: var(--medium)
+}
+.colorLight {
+    color: var(--light)
+}
+
+/* SECTION BACKGROUND IMAGES */
+
+.sprinkles {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiVWRmMwGlRBX4gG9Gx3d7BSUDz5_KV_yBh-we_pbLzwzBhAUK9xYTC8RPjGAnsOMAKDs6ExU8Cc&usqp=CAU&ec=48665701)
+}
+
+.chocolateChips {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhrGKM96g0RcdcA9WrUYCA65v3xGcAhuLLuX555JfRIA&usqp=CAU&ec=48665701)
+}
+
+.waffleCone {
+    background-image: url(https://leitesculinaria.com/wp-content/uploads/fly-images/284279/waffle-cones-1200x1200-c.jpg);
+    background-position: center;
+}
+
+.waffleBowl {
+    background-image: url(https://p.turbosquid.com/ts-thumb/SH/vmzGke/hF/wafflebowlshape_5_b0006/jpg/1658873167/1920x1080/fit_q87/3b54f5f31332418f750b54bca16689c5c1287243/wafflebowlshape_5_b0006.jpg);
+    background-position: center
+}
+
+.vanilla {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/33/81/99/1000_F_233819987_9F42rOqpGgYGDFWkju6ECb0oc4D6a4fZ.jpg)
+}
+
+.cookieDough {
+    background-image: url(https://thumbs.dreamstime.com/b/overhead-shot-chocolate-chip-cookie-dough-ice-cream-viewed-above-scoop-chocolate-chip-cookie-dough-ice-cream-123809551.jpg);
+    background-position: center;
+}
+
+.strawberry {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/33/81/98/1000_F_233819858_3WmR9p8Ucku5NGBV79VwODix3uQZ6Tvz.jpg);
+    background-position: center
+}
+
+body {
+    background-color: bisque
+}
+
+/* SECTION MISC */
+
+button {
+    font-weight: 700!important;
+}
+
+button:hover {
+    background-color: var(--lightAccent)!important;
+    color: lightgreen!important;
+}
+
+.cartScreen {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
