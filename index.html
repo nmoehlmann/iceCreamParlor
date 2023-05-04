@@ -31,59 +31,59 @@
   }
 </style>
 
-<body class="debug">
+<body>
 
   <header class="container-fluid">
-    <section class="row bg-secondary">
-      <div class="col text-center text-light">
-        <h1>Ice Cream</h1>
+    <section class="row bg-colorDark">
+      <div class="col text-center text-light p-2">
+        <h1>🍦 Ice Cream Parlor 🍨</h1>
       </div>
     </section>
   </header>
 
   <main class="container-fluid">
     <section class="row">
-      <div class="col-7">
+      <div class="col-7 text-center border-2">
         <!-- ANCHOR Toppings -->
         <section class="row">
-          <div class="col-6">
-            <h2>Sprinkles</h2>
-            <button onclick="addTopping('Sprinkles')">Add</button>
+          <div class="col-6 p-5 sprinkles">
+            <h2 class="card bg-colorMedium p-2">Sprinkles</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addTopping('Sprinkles')">Add</button>
           </div>
-          <div class="col-6">
-            <h2>Chocolate Chips</h2>
-            <button onclick="addTopping('Chocolate Chips')">Add</button>
+          <div class="col-6 p-5 chocolateChips">
+            <h2 class="card bg-colorMedium p-2">Chocolate Chips</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addTopping('Chocolate Chips')">Add</button>
           </div>
         </section>
         <!-- ANCHOR Containers -->
         <section class="row">
-          <div class="col-6">
-            <h2>Waffle Cone</h2>
-            <button onclick="addContainer('Waffle Cone')">Add</button>
+          <div class="col-6 p-5 waffleCone">
+            <h2 class="card bg-colorMedium p-2">Waffle Cone</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addContainer('Waffle Cone')">Add</button>
           </div>
-          <div class="col-6">
-            <h2>Waffle Bowl</h2>
-            <button onclick="addContainer('Waffle Bowl')">Add</button>
+          <div class="col-6 p-5 waffleBowl">
+            <h2 class="card bg-colorMedium p-2">Waffle Bowl</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addContainer('Waffle Bowl')">Add</button>
           </div>
         </section>
         <!-- ANCHOR Ice Cream -->
         <section class="row">
-          <div class="col-4">
-            <h2>Vanilla</h2>
-            <button onclick="addIceCream('Vanilla')">Add</button>
+          <div class="col-4 p-5 vanilla">
+            <h2 class="card bg-colorMedium p-2">Vanilla</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addIceCream('Vanilla')">Add</button>
           </div>
-          <div class="col-4">
-            <h2>Cookie Dough</h2>
-            <button onclick="addIceCream('Cookie Dough')">Add</button>
+          <div class="col-4 p-5 cookieDough">
+            <h2 class="card bg-colorMedium p-2">Cookie Dough</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addIceCream('Cookie Dough')">Add</button>
           </div>
-          <div class="col-4">
-            <h2>Strawberry</h2>
-            <button onclick="addIceCream('Strawberry')">Add</button>
+          <div class="col-4 p-5 strawberry">
+            <h2 class="card bg-colorMedium p-2">Strawberry</h2>
+            <button class="btn btn-dark px-4 bg-colorLight text-light" onclick="addIceCream('Strawberry')">Add</button>
           </div>
         </section>
       </div>
       <!-- SECTION Cart Screen -->
-      <div class="col-5 d-flex flex-column justify-content-between">
+      <div class="col-5 card d-flex flex-column justify-content-between cartScreen">
         <div class="">
           <section class="row d-flex">
             <div class="col-6">Name</div>
@@ -97,7 +97,7 @@
         </div>
         <section class="row">
           <div class="col">
-            <p>Total:<span id="total"></span></p>
+            <p>Total: $<span id="total"></span></p>
           </div>
         </section>
       </div>
