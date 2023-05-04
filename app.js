@@ -80,7 +80,7 @@ function drawCart() {
       <section class="row">
               <div class="col-6">${t.name}</div>
               <div class="col-3">${t.qty}</div>
-              <div class="col-3">${t.price}</div>
+              <div class="col-3">$${t.price}</div>
             </section>
             `
     }
@@ -91,7 +91,7 @@ function drawCart() {
       <section class="row">
               <div class="col-6">${c.name}</div>
               <div class="col-3">${c.qty}</div>
-              <div class="col-3">${c.price}</div>
+              <div class="col-3">$${c.price}</div>
             </section>
             `
     }
@@ -102,7 +102,7 @@ function drawCart() {
       <section class="row">
               <div class="col-6">${i.name}</div>
               <div class="col-3">${i.qty}</div>
-              <div class="col-3">${i.price}</div>
+              <div class="col-3">$${i.price}</div>
             </section>
             `
     }
